@@ -176,7 +176,32 @@ header{
 }
 /*about_block*/
 .about_block{
+  ul{
+    list-style: none;
+  }
+  li{
+    position: relative;
+    padding-top: 6px;
+  }
+  li:before{
+    content: " ";
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    left: -17px;
+    background: $bg_yellow;
+    border-radius: 19px;
+    top: 14px;
+  }
   h1{
     font-size: 32px;
   }
+}
+/*news block*/
+.news_block{
+  background: url("../img/Bg_news.png");
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: center;
+  height: 520px;
 }

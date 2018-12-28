@@ -136,5 +136,27 @@ header {
     height: 460px; }
 
 /*about_block*/
+.about_block ul {
+  list-style: none; }
+.about_block li {
+  position: relative;
+  padding-top: 6px; }
+.about_block li:before {
+  content: " ";
+  position: absolute;
+  height: 7px;
+  width: 7px;
+  left: -17px;
+  background: #ffd773;
+  border-radius: 19px;
+  top: 14px; }
 .about_block h1 {
   font-size: 32px; }
+
+/*news block*/
+.news_block {
+  background: url("../img/Bg_news.png");
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: center;
+  height: 520px; }
