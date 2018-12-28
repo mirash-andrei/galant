@@ -1,0 +1,140 @@
+/*font connection*/
+@font-face {
+  font-family: "Museo_Cyrl_100";
+  src: url(../fonts/Museo_Cyrl_100.otf) format("truetype");
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: "Museo_Cyrl_100_Italic";
+  src: url(../fonts/Museo_Cyrl_100_Italic.otf) format("truetype");
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: "Museo_Cyrl_300";
+  src: url(../fonts/Museo_Cyrl_300.otf) format("truetype");
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: "Museo_Cyrl_300_Italic";
+  src: url(../fonts/Museo_Cyrl_300_Italic.otf) format("truetype");
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: "Museo_Cyrl_500";
+  src: url(../fonts/Museo_Cyrl_500.otf) format("truetype");
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: "Museo_Cyrl_500_Italic";
+  src: url(../fonts/Museo_Cyrl_500_Italic.otf) format("truetype");
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: "Museo_Cyrl_700";
+  src: url(../fonts/Museo_Cyrl_700.otf) format("truetype");
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: "Museo_Cyrl_700_Italic";
+  src: url(../fonts/Museo_Cyrl_700_Italic.otf) format("truetype");
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: "Museo_Cyrl_900";
+  src: url(../fonts/Museo_Cyrl_900.otf) format("truetype");
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: "Museo_Cyrl_900_Italic";
+  src: url(../fonts/Museo_Cyrl_900_Italic.otf) format("truetype");
+  font-style: normal;
+  font-weight: 400; }
+/*variables*/
+/*extend*/
+/*common*/
+a {
+  color: #fff; }
+
+body {
+  font-family: "Museo_Cyrl_500";
+  color: #0a0f28; }
+
+.icons--wood {
+  fill: #fff;
+  fill-rule: evenodd;
+  filter: none; }
+  .icons--wood .icon:hover {
+    fill: #ffd773;
+    filter: url(#f2); }
+    .icons--wood .icon:hover .name_product {
+      color: #ffd773; }
+
+.fb {
+  font-family: "Museo_Cyrl_700"; }
+
+/*header*/
+header {
+  background: url("../img/bg_header.png");
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: center;
+  height: 720px; }
+  header .container {
+    height: 100%; }
+  header .home_link {
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+  header a:hover {
+    color: #ffd773;
+    filter: progid:DXImageTransform.Microsoft.DropShadow(offX=0, offY=0, color=#ffd773, positive=true);
+    text-shadow: 0px 0px 19px rgba(255, 215, 115, 0.67);
+    -webkit-text-shadow: 0px 0px 19px rgba(255, 215, 115, 0.67);
+    -moz-text-shadow: 0px 0px 19px rgba(255, 215, 115, 0.67); }
+  header .col-lg-2 .name {
+    font-family: "Museo_Cyrl_700";
+    font-size: 40px;
+    line-height: 1;
+    color: #fff; }
+  header .col-lg-8 ul {
+    width: 100%;
+    padding-left: 20px; }
+  header .nav-item {
+    list-style: none; }
+  header .nav-link {
+    font-size: 18px;
+    padding: 0 20px 0 0; }
+  header .feedback {
+    font-size: 21px; }
+  header .feedback:hover {
+    text-decoration: none; }
+  header .btn-header {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    line-height: 1;
+    color: #fff !important; }
+  header .btn-header:hover {
+    color: #ffd773 !important; }
+  header h2 {
+    color: #fff;
+    font-size: 46px;
+    text-align: center;
+    font-family: "Museo_Cyrl_700"; }
+  header .bottom_list .row {
+    width: 100%; }
+  header .image_block {
+    height: 100px; }
+  header .name_product {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1;
+    min-height: 44px;
+    font-family: "Museo_Cyrl_700"; }
+  header .head_center_text {
+    height: 460px; }
+
+/*about_block*/
+.about_block h1 {
+  font-size: 32px; }
