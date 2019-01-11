@@ -331,6 +331,8 @@ footer {
       background: #fff; }
     .fly_mobile_menu .navbar-galan .icon-bar + .icon-bar {
       margin-top: 3px; }
+  .fly_mobile_menu .navbar-galan:focus {
+    outline: none; }
   .fly_mobile_menu .color_logo_mobile {
     fill: #fff; }
   .fly_mobile_menu .col-8 .name {
@@ -343,6 +345,394 @@ footer {
     width: 100%;
     position: absolute; }
 
+.list_mobile_catalog .icon {
+  margin-bottom: 30px; }
+.list_mobile_catalog .icons--wood {
+  fill: #0a0f28; }
+  .list_mobile_catalog .icons--wood .name_product {
+    font-size: 33px;
+    font-family: "Museo_Cyrl_700";
+    text-align: center; }
+.list_mobile_catalog .border_block {
+  border: 2px solid #e7e7e7;
+  border-radius: 15px; }
+  .list_mobile_catalog .border_block .home_link {
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+
+/*modal little menu*/
+.little_menu {
+  padding-right: 0px !important; }
+  .little_menu .modal-content {
+    height: 100vh; }
+    .little_menu .modal-content .modal-header {
+      border-bottom: 2px solid #f7f7f7; }
+      .little_menu .modal-content .modal-header h5 {
+        font-family: "Museo_Cyrl_700";
+        font-size: 30px;
+        line-height: 1; }
+    .little_menu .modal-content .modal-body {
+      padding: 0;
+      text-align: left; }
+      .little_menu .modal-content .modal-body ul {
+        padding: 0; }
+        .little_menu .modal-content .modal-body ul li {
+          padding: 1rem;
+          border-bottom: 3px solid #f7f7f7; }
+          .little_menu .modal-content .modal-body ul li a {
+            color: #0a0f28;
+            font-size: 19px; }
+        .little_menu .modal-content .modal-body ul li:last-child {
+          border: none; }
+      .little_menu .modal-content .modal-body .namber_block {
+        background: #ffd773;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        padding-left: 1rem; }
+        .little_menu .modal-content .modal-body .namber_block a {
+          font-size: 28px;
+          font-family: "Museo_Cyrl_700"; }
+        .little_menu .modal-content .modal-body .namber_block a:hover {
+          color: #fff;
+          text-decoration: none; }
+  .little_menu .modal-dialog {
+    max-width: 100%;
+    margin: 0; }
+
+/*page news*/
+.secondary_header h1 {
+  color: #fff;
+  font-size: 46px;
+  text-align: center;
+  font-family: "Museo_Cyrl_700"; }
+.secondary_header p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center; }
+
+.news_page {
+  background: url(../img/bd_header_news.png);
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: center;
+  height: 570px; }
+
+.news_section .articl {
+  border-bottom: 1px solid #ebf0f5; }
+  .news_section .articl img {
+    width: 100%; }
+  .news_section .articl h2 a {
+    color: #0a0f28;
+    font-family: "Museo_Cyrl_700";
+    font-size: 25px; }
+  .news_section .articl h2 a:hover {
+    text-decoration: none; }
+  .news_section .articl .preview_article {
+    font-size: 15px; }
+  .news_section .articl .detail_link {
+    color: #ffd773; }
+  .news_section .articl .detail_link:hover {
+    color: #e2b74d;
+    text-decoration: none; }
+.news_section .articl:nth-last-of-type(2) {
+  border-bottom: none; }
+.news_section .download_articles a {
+  color: #0a0f28;
+  font-size: 19px; }
+  .news_section .download_articles a i {
+    top: 1px;
+    position: relative;
+    right: -7px;
+    font-size: 18px; }
+.news_section .download_articles a:hover {
+  text-decoration: none; }
+
+/*page news detail*/
+.news_page_detail {
+  background: url(../img/bd_header_news_detail.png);
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: center;
+  height: 570px; }
+
+.news_section_detail h3 {
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Museo_Cyrl_700"; }
+.news_section_detail p {
+  font-size: 15px; }
+.news_section_detail .listing a {
+  color: #0a0f28;
+  font-family: "Museo_Cyrl_700"; }
+.news_section_detail .listing a:hover {
+  color: #ffd773;
+  text-decoration: none; }
+.news_section_detail .listing .next_articles span.d-md-none {
+  font-size: 40px;
+  line-height: 1; }
+
+/*page jobs*/
+.jobs {
+  background: url(../img/Bg_jobs.png);
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: center;
+  height: 570px; }
+
+.jobs_block h3 {
+  font-family: "Museo_Cyrl_700";
+  font-size: 25px; }
+.jobs_block h4 {
+  font-family: "Museo_Cyrl_700";
+  font-size: 19px; }
+.jobs_block p {
+  font-size: 15px; }
+.jobs_block ul {
+  list-style-type: none;
+  padding-left: 10px; }
+  .jobs_block ul li {
+    text-indent: -5px;
+    font-size: 15px;
+    line-height: 1.19; }
+  .jobs_block ul li:before {
+    content: "-";
+    position: relative;
+    left: -5px; }
+.jobs_block img {
+  width: 100%; }
+
+/*contacts*/
+.contacts {
+  background: url(../img/Bg_contacts.png);
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: center;
+  height: 123px; }
+
+.contacts_block {
+  background: url(../img/Bg_contacts_2.png);
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: center;
+  position: relative;
+  z-index: 5;
+  top: 20px; }
+  .contacts_block h1 {
+    font-family: "Museo_Cyrl_700";
+    font-size: 30px; }
+  .contacts_block h3 {
+    font-family: "Museo_Cyrl_700";
+    font-size: 17px; }
+  .contacts_block a {
+    color: #0a0f28; }
+  .contacts_block a:hover {
+    text-decoration: none; }
+
+.map_block_in_contacts {
+  height: 630px;
+  position: relative;
+  top: 10px; }
+
+/*general catalog*/
+.list_general_catalog {
+  min-height: 69.4vh; }
+  .list_general_catalog h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: "Museo_Cyrl_700"; }
+  .list_general_catalog .icons--wood .icon:hover {
+    fill: #000;
+    filter: none; }
+    .list_general_catalog .icons--wood .icon:hover .name_product {
+      color: #0a0f28; }
+  .list_general_catalog .border_block {
+    border: 1px solid #e7e7e7;
+    width: 100%; }
+    .list_general_catalog .border_block .home_link {
+      z-index: 2; }
+  .list_general_catalog .border_block:hover {
+    border: 1px solid #ffd773;
+    -webkit-box-shadow: 0px 0px 18px 2px #ffd773;
+    -moz-box-shadow: 0px 0px 18px 2px #ffd773;
+    box-shadow: 0px 0px 18px 2px #ffd773; }
+  .list_general_catalog .image_block svg {
+    height: 96px; }
+  .list_general_catalog .icons--wood .name_product {
+    font-size: 25px;
+    text-align: left; }
+
+/*partner*/
+.partner_page {
+  background: url(../img/partner.png);
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: center;
+  height: 570px; }
+
+.partner_about.news_section .articl {
+  border-bottom: none; }
+.partner_about.news_section h2 {
+  color: #0a0f28;
+  font-family: "Museo_Cyrl_700";
+  font-size: 25px; }
+
+.our_partners h2 {
+  color: #0a0f28;
+  font-family: "Museo_Cyrl_700";
+  font-size: 25px; }
+.our_partners .col-lg-2 .background_block {
+  background: #f5faff;
+  height: 100px; }
+  .our_partners .col-lg-2 .background_block img {
+    width: 78%; }
+
+.partner_feedback {
+  background: url(../img/partner_footer.png);
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: center;
+  position: relative;
+  top: 20px; }
+  .partner_feedback h3 {
+    text-align: center;
+    font-family: "Museo_Cyrl_700"; }
+  .partner_feedback p {
+    text-align: center;
+    font-size: 18px; }
+  .partner_feedback .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #0a0f28;
+    outline: 0;
+    box-shadow: 0 0 0 0rem #ffc10738; }
+  .partner_feedback .btn {
+    width: 100%;
+    color: #fff;
+    background: #0a0f28;
+    font-family: "Museo_Cyrl_700"; }
+  .partner_feedback .btn:hover {
+    color: #0a0f28;
+    background: #ffd773; }
+  .partner_feedback .personal_information {
+    font-size: 13.5px;
+    color: #333333; }
+    .partner_feedback .personal_information a {
+      color: #333333;
+      border-bottom: 1px solid #333333; }
+    .partner_feedback .personal_information a:hover {
+      text-decoration: none; }
+
+/*catalog*/
+.nav_menu {
+  background: #f5faff;
+  padding: 0; }
+  .nav_menu ul {
+    width: 100%;
+    list-style: none; }
+    .nav_menu ul li {
+      padding-left: 20px;
+      padding-right: 20px; }
+      .nav_menu ul li a {
+        color: #0a0f28;
+        border-bottom: 1px solid #edf0f5; }
+        .nav_menu ul li a h1 {
+          font-size: 16px; }
+      .nav_menu ul li a:hover {
+        color: #ffd773; }
+    .nav_menu ul li:last-child a {
+      border-bottom: none; }
+    .nav_menu ul .nav-item.active {
+      background: #ffd773; }
+      .nav_menu ul .nav-item.active a {
+        border-bottom: none; }
+    .nav_menu ul .nav-item.active:hover a {
+      color: #0a0f28; }
+
+.filter a {
+  color: #0a0f28;
+  background: #f5faff;
+  width: 33.33333333%;
+  text-align: center;
+  border: 1px solid #edf0f5; }
+.filter a:hover {
+  text-decoration: none;
+  color: #ffd773; }
+.filter a.active {
+  background: #ffd773; }
+.filter a.active:hover {
+  color: #0a0f28; }
+
+.products .col-lg-4 {
+  margin-bottom: 30px; }
+.products h2 {
+  font-size: 32px;
+  font-family: "Museo_Cyrl_700"; }
+.products .name_product {
+  font-size: 28px;
+  font-family: "Museo_Cyrl_700"; }
+.products .border_block {
+  border: 1px solid #e7e7e7;
+  border-radius: 15px; }
+  .products .border_block .home_link {
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+  .products .border_block .packing {
+    color: #ffd773; }
+.products .border_block:hover {
+  border: 1px solid #ffd773;
+  -webkit-box-shadow: 0px 0px 18px 2px #ffd773;
+  -moz-box-shadow: 0px 0px 18px 2px #ffd773;
+  box-shadow: 0px 0px 18px 2px #ffd773; }
+
+.plagination .arrow_prew_page {
+  transform: rotate(180deg); }
+.plagination .arrow_next_page, .plagination .arrow_prew_page {
+  background: url(../img/Arrow_Right.png);
+  width: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30px;
+  position: relative;
+  z-index: 10;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin: 0 10px; }
+.plagination .arrow_next_page:hover, .plagination .arrow_prew_page:hover {
+  background: url(../img/Arrohover.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer; }
+.plagination .page_link {
+  color: #0a0f28;
+  font-size: 20px;
+  background: #ebf0f5;
+  border-radius: 50%;
+  height: 43px;
+  width: 43px;
+  text-align: center;
+  margin: 0 10px; }
+.plagination .page_link:hover {
+  color: #fff;
+  background: #ffd773;
+  cursor: pointer;
+  text-decoration: none; }
+
+@media only screen and (min-width: 1900px) {
+  footer {
+    background: url(../img/Bg_footer.png);
+    background-size: contain;
+    background-position-y: bottom;
+    background-position-x: center; } }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   header .col-lg-2 .name {
@@ -374,7 +764,12 @@ footer {
   footer .col-lg-1 a {
     padding: 6px 6px 0 4px; }
   footer .feedback {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  /*general catalog*/
+  .list_general_catalog .icons--wood .name_product {
+    font-size: 20px;
+    text-align: center; } }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   header .col-lg-8 .nav-link {
@@ -398,9 +793,84 @@ footer {
   footer {
     height: auto; }
     footer .nav-link {
-      font-size: 16px; } }
+      font-size: 16px; }
+
+  /*page jobs*/
+  .jobs_block h3 {
+    text-align: center; }
+
+  /*catalog*/ }
 /* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   header {
-    height: auto; } }
+    height: auto !important; }
+
+  .map_block #map {
+    display: none; }
+  .map_block .container .info_in_contact {
+    background: #fff; }
+
+  /*page news*/
+  .news_section .preview_article {
+    display: none; }
+
+  /*contacts*/
+  .contacts_block {
+    background: #fff; }
+    .contacts_block h1 {
+      text-align: center;
+      margin-bottom: 20px; }
+    .contacts_block .magic {
+      margin-top: 1rem; }
+      .contacts_block .magic span {
+        font-family: "Museo_Cyrl_700";
+        display: block; }
+
+  /*partner*/
+  .news_section.partner_about .preview_article {
+    display: block; } }
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  footer {
+    background-size: inherit;
+    background-position-y: top;
+    background-repeat: no-repeat; }
+    footer .nav_top {
+      flex-direction: column;
+      text-align: center; }
+      footer .nav_top .nav-link {
+        padding: 10px 0 0 0; }
+    footer .background_small_block {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 75%;
+      background: #ffd773;
+      z-index: -1; }
+    footer .col-md-9 {
+      padding: 0; }
+    footer .col-lg-1 a {
+      padding: 16px;
+      font-size: 30px; }
+
+  /*jobs page*/
+  .jobs h1 {
+    font-size: 32px; }
+  .jobs p {
+    font-size: 15px; }
+
+  /*partner*/
+  .partner_page h1 {
+    font-size: 32px; }
+  .partner_page p {
+    font-size: 15px; } }
+@media only screen and (max-width: 470px) {
+  .list_mobile_catalog .icons--wood .name_product {
+    font-size: 27px; } }
+@media only screen and (max-width: 370px) {
+  /*general catalog*/
+  .list_general_catalog h1 {
+    font-size: 23px; }
+  .list_general_catalog .icons--wood .name_product {
+    font-size: 20px;
+    text-align: center; } }
